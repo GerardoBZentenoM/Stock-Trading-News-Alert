@@ -25,8 +25,11 @@ This project fetches the latest stock price for a specified company and sends an
     ```
 4. Create a `.env` file and add the required environment variables:
     ```
+    # https://www.alphavantage.co/support/#api-key
     ALPHA_VANTAGE_API_KEY = "your_alpha_vantage_api_key"
+    # https://newsapi.org/
     NEWS_API_KEY = "your_news_api_key"
+    # https://www.twilio.com/es-mx/docs/sms/quickstart/python
     TWILIO_SID = "your_twilio_sid"
     TWILIO_AUTH_TOKEN = "your_twilio_auth_token"
     TWILIO_PHONE_NUMBER = "your_twilio_phone_number"
