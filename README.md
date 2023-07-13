@@ -68,6 +68,7 @@ Please feel free to contact the maintainer of this project for any kind of inqui
 
 This is a basic version of the project, there are several improvements that can be made, such as:
 
+- Change the STOCK_NAME and COMPANY_NAME in args in python script to use like: python main.py --stock=IBM --company=IBM.
 - Use the `schedule` library to run the script at a particular time every day.
 - Create a GUI or web interface to display the data instead of printing it in the console.
 - Use a database to store the stock prices for further analysis in the future.
